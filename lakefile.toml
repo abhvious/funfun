@@ -1,0 +1,12 @@
+name = "funfun"
+version = "0.1.0"
+defaultTargets = ["funfun"]
+
+
+[[lean_lib]]
+name = "funfun"
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4"
+
